@@ -1,0 +1,29 @@
+.day {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 8px;
+  margin: 8px;
+}
+
+.day__time {
+  font-size: 18px;
+  color: rgb(37, 196, 243);
+}
+
+.day__time_weekend {
+  color: #d71616;
+}
+
+.day__icon {
+  width: 130px;
+  height: 120px;
+}
+
+.text {
+  font-size: 16px;
+}
+.day__description {
+  font-size: 24px;
+  color: #615d9f;
+}
